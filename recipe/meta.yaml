@@ -1,5 +1,5 @@
 {% set name = "auditwheel" %}
-{% set version = "6.7.0" %}
+{% set version = "6.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/auditwheel/auditwheel-{{ version }}.tar.gz
-  sha256: 70aa4fe8e24d447e9fb47082f0aa0de2d6bde8aaa9bbfe517020328cea80e0f1
+  sha256: 498ffdf2c3030a9a7bd651bb4cacdc190c1310da32b9819c75441bb6155ea53e
 
 build:
   entry_points:
